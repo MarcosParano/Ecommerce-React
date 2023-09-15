@@ -1,0 +1,46 @@
+header {
+  background-color: rgb(15, 15, 15);
+  color: white;
+  height: 90px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+.brand {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.loginBtn {
+  color: white;
+  text-decoration: none;
+}
+
+.navbarTop {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+.navbarOptionsContainer {
+  background-color: rgb(15, 15, 15);
+}
+
+.navbarOptions {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 10px 0;
+}
+
+.navLinks {
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+}
+.navLinks:hover {
+  color: rgb(225, 225, 225);
+  filter: drop-shadow(0 0 5px white);
+}

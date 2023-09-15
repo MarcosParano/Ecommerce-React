@@ -1,0 +1,78 @@
+.itemDetail {
+  height: 500px;
+}
+.detailCard {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+}
+.detailImgContainer {
+  text-align: center;
+  width: 40%;
+}
+
+.detailImg {
+  height: 100%;
+}
+.detailInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.detailHeader {
+  display: flex;
+  width: 100%;
+  gap: 100px;
+  align-items: baseline;
+  font-size: 1.5rem;
+  text-align: start;
+}
+.detailName {
+  font-size: 2rem;
+}
+
+.itemDescription {
+  display: flex;
+  text-align: start;
+  justify-content: space-around;
+}
+.itemDescription p {
+  width: 50%;
+}
+.itemDescription button {
+  width: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+.detailFooter {
+  display: flex;
+  justify-content: center;
+}
+
+.terminarBtn {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.terminarBtn:hover {
+  translate: 3px 3px;
+  box-shadow: -3px -3px 0px black;
+}
+
+.noStockContainer {
+  display: flex;
+  gap: 20px;
+}
+.noStockMensaje {
+  color: red;
+  text-decoration-line: line-through;
+}
+
+.noStockBtn {
+  color: black;
+  text-decoration: none;
+}

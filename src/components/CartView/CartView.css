@@ -1,0 +1,72 @@
+.cartViewContainer {
+  height: 100vh;
+  background-color: darkgray;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  border-radius: 20px;
+  margin-top: 150px;
+}
+.cartTitle {
+  text-align: center;
+}
+.CartItem {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-around;
+  height: 100px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.CWName {
+  width: 20%;
+}
+
+.CWPrice {
+  width: 20%;
+}
+.CWTotalItem {
+  width: 20%;
+}
+.CWQuantity {
+  width: 20%;
+}
+.deleteBtn {
+  cursor: pointer;
+}
+.cartFooter {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+.vaciarBtn {
+  width: 20%;
+  border-radius: 5px;
+  font-family: "Quantico", sans-serif;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.checkoutBtn {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  width: 20%;
+  justify-content: center;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+.checkoutBtn:hover {
+  background-color: #d0d0d7;
+}
+.emptyContainer {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
